@@ -14,6 +14,8 @@ Airflow orchestrates the workflow through sequential tasks and uses XCom to pass
 # Airflow
 <img width="1367" height="658" alt="Screenshot 2026-03-01 152913" src="https://github.com/user-attachments/assets/fe0e8ba1-3165-435e-bd3e-7b2f8449030d" />
 
+
+# Snowflake_Visualization
 <img width="1341" height="821" alt="Screenshot 2026-02-28 223833" src="https://github.com/user-attachments/assets/ff7d1733-91e1-42bc-915e-bce2f8e63e7b" />
 
 
