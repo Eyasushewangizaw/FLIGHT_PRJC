@@ -1,5 +1,6 @@
 ## Airflow ETL Pipeline – OpenSky Flights Data
 # Archtecture
+<img width="812" height="385" alt="image" src="https://github.com/user-attachments/assets/425b21f7-dbb5-4258-857c-f677fe9eb9c6" />
 
 This project implements an end-to-end ETL pipeline using Apache Airflow in a Dockerized environment to process real-time flight data from the OpenSky API. The pipeline follows the Medallion Architecture pattern (Bronze, Silver, and Gold layers) to ensure structured and scalable data processing. In the Bronze layer, raw flight data is extracted from the API and stored as timestamped JSON files, preserving the original dataset as a reliable source of truth. 
 
