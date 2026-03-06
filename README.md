@@ -44,18 +44,13 @@ Tech Stack:
 
 # How to Run
 
-Clone the repository
-
-git clone <your-repo-url>
-cd <your-repo-name>
-
-Start Airflow with Docker
-
+ Start Airflow with Docker
+ 
 docker-compose up --build
-
-Open Airflow UI
-
-http://localhost:8080
+ 
+ Open Airflow UI
+ 
+ Enable and trigger the DAG
 
 
 
