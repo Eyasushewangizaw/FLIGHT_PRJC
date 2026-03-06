@@ -4,17 +4,13 @@ This project implements an end-to-end ETL pipeline using Apache Airflow (Dockeri
 
 The pipeline follows the Medallion Architecture pattern (Bronze → Silver → Gold) and prepares analytics-ready data for loading into Snowflake.
 
-Tech Stack
+Tech Stack:
   
-  Python
-  
-  Apache Airflow
-  
-  Docker
-  
-  Pandas
-  
-  Snowflake
+ * Python
+ * Apache Airflow
+ * Docker
+ * Pandas
+ * Snowflake
 
 OpenSky REST API
 # Archtecture
