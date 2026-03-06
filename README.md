@@ -1,4 +1,22 @@
 ## Airflow ETL Pipeline – OpenSky Flights Data
+# Overview
+This project implements an end-to-end ETL pipeline using Apache Airflow (Dockerized) to process real-time flight data from the OpenSky API.
+
+The pipeline follows the Medallion Architecture pattern (Bronze → Silver → Gold) and prepares analytics-ready data for loading into Snowflake.
+
+Tech Stack
+  
+  Python
+  
+  Apache Airflow
+  
+  Docker
+  
+  Pandas
+  
+  Snowflake
+
+OpenSky REST API
 # Archtecture
 <img width="812" height="385" alt="image" src="https://github.com/user-attachments/assets/425b21f7-dbb5-4258-857c-f677fe9eb9c6" />
 
