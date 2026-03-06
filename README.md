@@ -18,28 +18,28 @@ Tech Stack:
 ## Pipeline Layers
 # Bronze Layer:
 
-  *Extracts flight data from OpenSky API
-  *Stores raw JSON files with timestamps
-  *Serves as the source of truth
-  *Silver Layer
+  * Extracts flight data from OpenSky API
+  * Stores raw JSON files with timestamps
+  * Serves as the source of truth
+  * Silver Layer
 # Silver Layer:
 
-  *Transforms raw JSON into structured format
-  *Selects relevant columns
-  *Outputs cleaned CSV files
+  * Transforms raw JSON into structured format
+  * Selects relevant columns
+  * Outputs cleaned CSV files
 # Gold Layer:
 
-  *Aggregates data by origin country
+  * Aggregates data by origin country
   
-  *Calculates:
+  * Calculates:
 
-    *Total flights
+    * Total flights
     
-    *Average velocity
+    * Average velocity
     
-    *Flights on ground
+    * Flights on ground
 
-  *Produces business-ready dataset
+  * Produces business-ready dataset
 
 To initialize the environment and start the Airflow services, run the following command in the root directory
 :
