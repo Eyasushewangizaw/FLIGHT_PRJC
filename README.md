@@ -11,6 +11,7 @@ Airflow orchestrates the workflow through sequential tasks and uses XCom to pass
 
 To initialize the environment and start the Airflow services, run the following command in the root directory
 :
+
 <img width="1919" height="1054" alt="Screenshot 2026-02-27 234038" src="https://github.com/user-attachments/assets/465a15af-538c-4ffc-880c-5456d5af5c52" />
 
 
