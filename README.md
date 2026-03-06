@@ -41,22 +41,27 @@ Tech Stack:
 
   * Produces business-ready dataset
 
-To initialize the environment and start the Airflow services, run the following command in the root directory
-:
+
+# How to Run
+
+Clone the repository
+
+git clone <your-repo-url>
+cd <your-repo-name>
+
+Start Airflow with Docker
+
+docker-compose up --build
+
+Open Airflow UI
+
+http://localhost:8080
+
+
+
 
 <img width="1919" height="1054" alt="Screenshot 2026-02-27 234038" src="https://github.com/user-attachments/assets/465a15af-538c-4ffc-880c-5456d5af5c52" />
-
-
-# Airflow
-
-Once the containers are running, you can access the Airflow UI (typically at localhost:8080). The DAG will be visible in the dashboard, ready to be triggered
-.
 <img width="1367" height="658" alt="Screenshot 2026-03-01 152913" src="https://github.com/user-attachments/assets/fe0e8ba1-3165-435e-bd3e-7b2f8449030d" />
-
-
-# Snowflake_Visualization
-The final processed dataset in the Gold layer is prepared for loading into Snowflake, enabling advanced analytics, reporting, and business intelligence use cases
-.
 <img width="1341" height="821" alt="Screenshot 2026-02-28 223833" src="https://github.com/user-attachments/assets/ff7d1733-91e1-42bc-915e-bce2f8e63e7b" />
 
 
