@@ -44,14 +44,28 @@ Tech Stack:
 
 # How to Run
 
- Start Airflow with Docker
+ 1) Start Airflow with Docker
  
-docker-compose up --build
+  * docker-compose up --build
  
- Open Airflow UI
+ 2) Open Airflow UI
  
- Enable and trigger the DAG
+  * http://localhost:8080
+    
+ 3) Enable and trigger the DAG
 
+
+# Key Features
+
+  * Real-time API data ingestion
+  
+  * Medallion architecture implementation
+  
+  * Automated workflow orchestration
+  
+  * Dockerized development environment
+  
+  * Cloud data warehouse integration
 
 
 
