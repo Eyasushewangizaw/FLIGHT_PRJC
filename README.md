@@ -1,7 +1,6 @@
 ## Airflow ETL Pipeline – OpenSky Flights Data
 # Overview
 This project implements an end-to-end ETL pipeline using Apache Airflow (Dockerized) to process real-time flight data from the OpenSky API.
-
 The pipeline follows the Medallion Architecture pattern (Bronze → Silver → Gold) and prepares analytics-ready data for loading into Snowflake.
 
 Tech Stack:
@@ -11,17 +10,36 @@ Tech Stack:
  * Docker
  * Pandas
  * Snowflake
+ *OpenSky REST API
 
-OpenSky REST API
 # Archtecture
 <img width="812" height="385" alt="image" src="https://github.com/user-attachments/assets/425b21f7-dbb5-4258-857c-f677fe9eb9c6" />
 
-This project implements an end-to-end ETL pipeline using Apache Airflow in a Dockerized environment to process real-time flight data from the OpenSky API. The pipeline follows the Medallion Architecture pattern (Bronze, Silver, and Gold layers) to ensure structured and scalable data processing. In the Bronze layer, raw flight data is extracted from the API and stored as timestamped JSON files, preserving the original dataset as a reliable source of truth. 
+## Pipeline Layers
+# Bronze Layer
 
-In the Silver layer, the raw data is transformed into a structured format using Pandas, relevant columns such as aircraft identifier, origin country, velocity, and ground status are selected, and the cleaned data is saved as CSV files. In the Gold layer, the dataset is aggregated by origin country to produce business-ready metrics, including total flights, average velocity, and the number of aircraft on the ground. 
+  *Extracts flight data from OpenSky API
+  *Stores raw JSON files with timestamps
+  *Serves as the source of truth
+  *Silver Layer
+# Silver Layer
 
-Airflow orchestrates the workflow through sequential tasks and uses XCom to pass file paths between stages. The final processed dataset is prepared for loading into Snowflake, making it suitable for analytics, reporting, and business intelligence use cases.
-# Docker Setup
+  *Transforms raw JSON into structured format
+  *Selects relevant columns
+  *Outputs cleaned CSV files
+# Gold Layer
+
+  *Aggregates data by origin country
+  
+  *Calculates:
+
+    *Total flights
+    
+    *Average velocity
+    
+    *Flights on ground
+
+  *Produces business-ready dataset
 
 To initialize the environment and start the Airflow services, run the following command in the root directory
 :
