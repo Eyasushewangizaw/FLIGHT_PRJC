@@ -16,18 +16,18 @@ Tech Stack:
 <img width="812" height="385" alt="image" src="https://github.com/user-attachments/assets/425b21f7-dbb5-4258-857c-f677fe9eb9c6" />
 
 ## Pipeline Layers
-# Bronze Layer
+# Bronze Layer:
 
   *Extracts flight data from OpenSky API
   *Stores raw JSON files with timestamps
   *Serves as the source of truth
   *Silver Layer
-# Silver Layer
+# Silver Layer:
 
   *Transforms raw JSON into structured format
   *Selects relevant columns
   *Outputs cleaned CSV files
-# Gold Layer
+# Gold Layer:
 
   *Aggregates data by origin country
   
