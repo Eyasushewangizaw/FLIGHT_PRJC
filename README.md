@@ -10,7 +10,7 @@ Tech Stack:
  * Docker
  * Pandas
  * Snowflake
- *OpenSky REST API
+ * OpenSky REST API
 
 # Archtecture
 <img width="812" height="385" alt="image" src="https://github.com/user-attachments/assets/425b21f7-dbb5-4258-857c-f677fe9eb9c6" />
