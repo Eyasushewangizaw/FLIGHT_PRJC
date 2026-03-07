@@ -65,7 +65,6 @@ Tech Stack:
   
   * Dockerized development environment
   
-  * Cloud data warehouse integration
 
 
 ## Docker
