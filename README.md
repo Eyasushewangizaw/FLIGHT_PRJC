@@ -64,6 +64,8 @@ Tech Stack:
   * Automated workflow orchestration
   
   * Dockerized development environment
+
+  * Snowflake Visualization
   
 
 
